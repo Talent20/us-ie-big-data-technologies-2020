@@ -1,8 +1,8 @@
 {
   "author": {
-    "name": "John Doe",
-    "student_nr": 12345678,
-    "email": "12345678@sun.ac.za"
+    "name": "Talent Maeresera",
+    "student_nr": 24677434,
+    "email": "Talent.Maeresera@fnb.co.za"
   },
   "assignment": [
     {
@@ -10,12 +10,12 @@
       "questions": [
         {
           "question": "Loosely define the term 'data product' and provide an example?",
-          "answer": "",
+          "answer": "data product mean any application of data that can help a business to generate revenue, optimise costs, mitigate risk among other business goals. An axample of a data product is a Probability od default model",
           "total_marks": 2
         },
         {
           "question": "Provide a layman's explanation for what differentiates big data analytics from conventional data analytics?",
-          "answer": "",
+          "answer": "Big data analytics is the analysis of a collection of huge volumes of data that requires a lot of filtering using comples technological tools to derive usifull insights from it. On the other hand conventional data analytics have specific goal and sort through relevent data to look for was to gain support",
           "total_marks": 1
         },
         {
@@ -30,42 +30,42 @@
       "questions": [
         {
           "question": "What is on-premise computing?",
-          "answer": "",
+          "answer": "using your own physical infrastracture to run servers, emails, network and storage facilities on your premises.",
           "total_marks": 1
         },
         {
           "question": "How has on-demand cloud computing enabled big data analytics?",
-          "answer": "",
+          "answer": "Big data involves manipulating petabytes of data, and the cloud’s scalable environment makes it possible to deploy data-intensive applications that power business analytics ",
           "total_marks": 1
         },
         {
           "question": "What is a _multi-tenancy_, as it relates to cloud computing?",
-          "answer": "",
+          "answer": "Multi–tenancy refers to a principle in software architecture where a single instance of a software application serves multiple customers.",
           "total_marks": 1
         },
         {
           "question": "How could organisations with existing infrastructure leverage _on-demand_ cloud computing?",
-          "answer": "",
+          "answer": "_on-demand_ cloud computing provides better data storage, data security, flexibility, increased collaboration between employees, and changes the workflow of small businesses and large enterprises to help them make better decisions while decreasing costs",
           "total_marks": 1
         },
         {
           "question": "Give an example of a cloud managed service and how its management may be  beneficial (in at least two specific ways, e.g. critical software updates occur automatically with no down time)?",
-          "answer": "",
+          "answer": "Backup and Recovery if a desaster happens, one can quickly and fully recover data and business will continue operating",
           "total_marks": 2
         },
         {
           "question": "What is horizontal vs vertical scaling?",
-          "answer": "",
+          "answer": "Horizontal Scaling is the act of changing the number of nodes in a computing system without changing the size of any individual node whereas Vertical Scaling is increasing the size and computing power of a single node without increasing the number of nodes ",
           "total_marks": 2
         },
         {
           "question": "What is a significant source of latency in a distributed system?",
-          "answer": "",
+          "answer": "Network I/O",
           "total_marks": 1
         },
         {
           "question": "Describe PaaS, Saas, Iaas and provide an example of each?",
-          "answer": "",
+          "answer": "Platform as a service (PaaS) is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications like Microsoft Azure.Software as a service (SaaS) allows users to connect to and use cloud-based apps over the Internet like Microsoft Office 365. Infrastructure as a service (IaaS) is an instant computing infrastructure, provisioned and managed over the internet like Amazon Web Services",
           "total_marks": 4
         }
       ]
@@ -75,42 +75,42 @@
       "questions": [
         {
           "question": "What is the shared characteristic of R and Python that allows them to make use of a REPL (read-eval-print loop)?",
-          "answer": "",
+          "answer": "Both Python and R have extensive command line interfaces (CLIs) which can be leveraged via a terminal running the language’s read–eval–print loop (REPL) interactive environment",
           "total_marks": 1
         },
         {
           "question": "Suppose you want to process a large amount of data. In this context, what does it mean if a process is 'I/O bound', and how would you solve/ameliorate this using hardware, or using a language such as python or javascript (or any other language you are more familiar with)?",
-          "answer": "",
+          "answer": "I/O bound refers to a condition in which the time it takes to complete a computation is determined principally by the period spent waiting for input/output operations to be completed. this can be solved by striping",
           "total_marks": 2
         },
         {
           "question": "What does serialization mean in the context of storing objects or data?",
-          "answer": "",
+          "answer": "Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file",
           "total_marks": 1
         },
         {
           "question": "What does it mean when we say that JSON is serializable?",
-          "answer": "",
+          "answer": "it mean that JSON is a format that encodes objects in a string",
           "total_marks": 1
         },
         {
           "question": "Define 'embarrassingly parallelisable' and provide an example in the related to data analytics?",
-          "answer": "",
+          "answer": "A computation that can be divided into completely independent parts, each of which can be executed on a separate process. example: Monte Carlo analysis",
           "total_marks": 1
         },
         {
           "question": "What paradigm shift allows the Spark's computing engine to be faster than MapReduce?",
-          "answer": "",
+          "answer": "Spark runs in-memory on the cluster, and it isn’t tied to Hadoop’s MapReduce two-stage paradigm",
           "total_marks": 1
         },
         {
           "question": "How is java code able to run on multiple operating systems?",
-          "answer": "",
+          "answer": "JAVA is platform-independent language",
           "total_marks": 1
         },
         {
           "question": "What is the difference between a virtual machine (e.g. virtualbox) and containers (e.g. docker)? Which one is more light-weight and which is more secure? ",
-          "answer": "",
+          "answer": "VirtualBox is a virtualization apps that create virtual machines that are isolated at the hardware level whereas Docker is a containerization app that isolates apps at software level. Docker machines are lightweight and  more secure than virtualbox",
           "total_marks": 3
         }
       ]
@@ -130,12 +130,12 @@
         },
         {
           "question": "What is meant by unbounded data, and how does it differ from bounded data?",
-          "answer": "",
+          "answer": "Unbound data is unpredictable, infinite, and not always sequential whereas Bound data is finite and unchanging data, where everything is known about the set of data. ",
           "total_marks": 2
         },
         {
           "question": "Stream processing is an inherently time-related activity; describe the difference between 'event time' and 'processing time' within these systems, and provide a brief example in the banking or retail sector?",
-          "answer": "",
+          "answer": "Event time is the time event has actually occurred. Event time has to be derived from the field in event, example : timestamp field whereas Processing time is the time when the event is processed. example time taken to baked bread",
           "total_marks": 3
         },
         {
@@ -150,17 +150,17 @@
       "questions": [
         {
           "question": "Tape drives are still in wide use around the world. Provide three reasons for their continued use?",
-          "answer": "",
+          "answer": " Tape devices can provide a large storage capacity. Tape devices can provide tape backups can be considered a highly affordable option when it comes to its cost per gigabyte. Longevity of tapes is the main reason why tape backups are still widely used by large enterprises",
           "total_marks": 3
         },
         {
           "question": "What is the difference between a _kibibyte_ and a _kilobyte_, and which is accurate in terms of storage?",
-          "answer": "",
+          "answer": "kibibyte is 1024 bytes where as kilobyte is 1000 bytes. kilobyte is accurate in terms of storage",
           "total_marks": 2
         },
         {
           "question": "If a compact disk is 1.2mm thick, and can store 700MiB on a single disk, then how many pebibytes (PiB) of data would be stored on a hypothetical column of compact disks stacked between the Earth and the Moon? How many exbibytes (EiB)?",
-          "answer": "",
+          "answer": "224233.33PiB  224.23EiB",
           "total_marks": 2
         },
         {
